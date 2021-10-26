@@ -1,0 +1,159 @@
+#botones:hover {
+    color: white
+       }
+
+       
+#botones {
+    color: rgb(141, 141, 141);
+}       
+
+#botonComprar {
+    color: rgb(7, 107, 7);
+}
+
+
+
+#botonComprar:hover {
+    color: greenyellow;
+}
+
+#barraNav {
+    background-color: rgb(53, 58, 64);
+}
+
+#fondo {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#titulo {
+    position: absolute;
+    top: 330px;
+    color: white;
+    margin-left: 1035px;
+}
+
+.texto1 {
+    text-align: center;
+    font-size: small;
+}
+
+
+
+.card {
+    
+    
+    margin-bottom: 10px;
+    min-width: 25%;
+    padding: 0;
+    
+    
+    
+}
+
+.fondobsas {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('img/ba1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+
+
+.playa {
+    background-image: url(img/honolulu.jpg);
+    background-size: cover;
+    
+}
+
+.gris {
+    background-color: rgb(53, 58, 64);
+    
+}
+
+.letragruesa {
+    font-weight: 400;
+
+}
+
+
+.oradores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+u.dotted{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+  }
+
+  
+  
+.pie {
+    
+  background-image: linear-gradient(to right, rgb(29, 55, 68) , rgb(30, 83, 114));
+  justify-content: center;
+  display: flex;
+}
+
+
+.cartel {
+    padding-top: 250px;
+    padding-left: 600px;
+    padding-right: 100px;
+    
+}
+
+
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+
+}
+
+
+.categoria {
+    display: inline-block;
+    margin: 2px;
+    padding: 20px;
+    
+    
+    
+    
+}
+
+.estudiante {
+    border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.trainee {
+    border-width: 2px;
+  border-style: solid;
+  border-color: green;
+}
+
+.junior {
+    border-width: 2px;
+  border-style: solid;
+  border-color: gold;
+}

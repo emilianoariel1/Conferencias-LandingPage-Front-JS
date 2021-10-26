@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+      
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="barraNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>    
+          
+          
+      
+          
+       
+      <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <div class="navbar-nav ms-auto">
+        <div>
+         <a class="navbar-brand" href="#uno" style="font-size: medium;" id="botones">La conferencia</a> 
+        </div>
+    
+        <div>
+          <a class="navbar-brand" href="#dos" style="font-size: medium;" id="botones">Los oradores</a> 
+        </div>
+
+        <div>
+          <a class="navbar-brand" href="#tres" style="font-size: medium;" id="botones">El lugar y la fecha</a> 
+        </div>
+
+        <div>
+          <a class="navbar-brand" href="#cuatro" style="font-size: medium;" id="botones">Conviértete en orador</a> 
+        </div>
+
+        <div>
+          <a class="navbar-brand" href="#" style="font-size: medium;" id="botonComprar">Comprar tickets</a> 
+        </div>
+        </div>
+      
+      </div>
+    
+    </nav>
+   
+   <br>
+
+    <div class="oradores">
+
+       <div class="categoria estudiante text-center">
+
+        <b>Estudiante</b>
+        <br><br>
+        Tienen un descuento
+        <br><br>
+        <b>80%</b>
+        <br><br>
+        <small class="text-muted">* presentar documentación</small>
+
+       </div>
+
+
+
+       <div class="categoria trainee text-center">
+
+        <b>Trainee</b>
+        <br><br>
+        Tienen un descuento
+        <br><br>
+        <b>50%</b>
+        <br><br>
+        <small class="text-muted">* presentar documentación</small>
+
+       </div>
+
+
+
+
+       <div class="categoria junior text-center">
+
+        <b>Junior</b>
+        <br><br>
+        Tienen un descuento
+        <br><br>
+        <b>15%</b>
+        <br><br>
+        <small class="text-muted">* presentar documentación</small>
+
+       </div>
+
+    </div>
+
+       <br>
+
+       <div class="text-center">VENTA</div>
+
+       <div class="text-center fw-bold fs-1">VALOR DE TICKET 200$</div>
+
+       <br>
+
+       <div class="container px-5">
+
+        <form action="">
+           
+            <div class="row">
+            <div class="col-sm"><input type="text" class="form-control" placeholder="Nombre"></div>
+            <div class="col-sm"><input type="text" class="form-control" placeholder="Apellido"></div>
+            </div>
+             <br>
+            <input type="email" name="email" id="email" placeholder="Correo" class="form-control">
+             <br>
+            <div class="row">
+                <div class="col-sm">Cantidad
+                    <br>
+                    <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad" class="form-control" required>
+                </div>
+                <div class="col-sm">Categoria
+                    <br>
+                    <select name="categoria" id="categoria" class="form-select" required>
+                        <option value="0.20">Estudiante</option>
+                        <option value="0.50">Trainee</option>
+                        <option value="0.85">Junior</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="alert alert-primary" role="alert" id="mensaje">
+                
+              </div>
+            <br>
+            
+            <div class="row">
+                <div class="col-sm d-grid"><button class="btn btn-success" type="reset" onclick="limpiar()">Borrar</button></div>
+                <div class="col-sm d-grid"><button class="btn btn-success" type="button" onclick="resumen()">Resumen</button></div>
+            </div>
+
+
+
+
+
+
+
+        </form>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </div>
+
+       <br>
+
+       <div class="pie mx-auto">
+
+
+
+
+        <div class="navbar footer">
+        
+        <a  class="" href="#">Preguntas <br> frecuentes</a>
+        
+        <a  class="" href="#">Contáctanos</a>
+        
+        <a  class="" href="#">Prensa</a>
+        
+        <a  class="" href="#">Conferencias</a>
+        
+        <a  class="" href="#">Términos y <br> condiciones</a>
+        
+        <a  class="" href="#">Privacidad</a>
+        
+        <a  class="" href="#">Estudiantes</a>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <script src="/ticket.js"></script>
+   
+   
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
